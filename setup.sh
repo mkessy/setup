@@ -34,7 +34,7 @@ cd $HOME
 if [ -d ./dotfiles/ ]; then
     mv dotfiles dotfiles.old
 
-git clone #REPLACE WITH MEPUKA'S GIT URL for dotfiles
+git clone https://github.com/mkessy/dotfiles.git
 
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
